@@ -7,10 +7,9 @@ dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table(os.environ['TABLE_NAME'])
 
 def lambda_handler(event, context):
-    print("Received event:", json.dumps(event))  # 👈 Logs the full event for debugging
+    print("Received event:", json.dumps(event)) 
 
     try:
-        # Use .get and handle case where body might be None
         raw_body = event.get('body', '{}')
         body = json.loads(raw_body)
 
@@ -34,7 +33,7 @@ def lambda_handler(event, context):
         }
 
     except Exception as e:
-        print("Error occurred:", str(e))  # 👈 log actual error
+        print("Error occurred:", str(e)) 
         return {
             'statusCode': 500,
             'body': json.dumps({'error': str(e)})
