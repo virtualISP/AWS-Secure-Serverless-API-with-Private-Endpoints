@@ -27,7 +27,7 @@ The architecture consists of the following AWS services:
 - 🛡️ **IAM Roles**: To ensure appropriate permissions for Lambda and API Gateway.  
 - 🔐 **Security Groups**: To define network access control for Lambda.
 
-![Serverless API Endpoint Diagram]()
+![Serverless API Endpoint Diagram](https://github.com/virtualISP/AWS-Secure-Serverless-API-with-Private-Endpoints/blob/main/docs/architecture-diagram.png)
 
 ### 🔄 High-Level Flow:
 1. 📩 **API Gateway** receives the `POST` request.  
