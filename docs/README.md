@@ -6,6 +6,10 @@
 
 This project demonstrates how to build a **Serverless Application** using **AWS Lambda** 🐑, **API Gateway** 🌐, **DynamoDB** 💾, and **Terraform** ⚙️. The API exposes a private endpoint where you can **POST** 📤 data, which is then saved to a **DynamoDB** table. The application uses **Terraform** to manage infrastructure as code.
 
+## 📝 Blog Post
+
+For a detailed walkthrough and architecture explanation, check out my blog post on Medium:  
+👉 **[Read the full blog here](https://medium.com/@zer0vuln/building-a-serverless-application-with-private-api-endpoints-a-comprehensive-guide-320dfb05d3ad)**
 
 ## 🌟 Features
 
