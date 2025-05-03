@@ -72,6 +72,15 @@ The architecture consists of the following AWS services:
 
 ---
 
+## 📦 Prerequisites
+
+- 🐍 Python 3.8+  
+- ⚙️ Terraform 1.5+  
+- 🔑 AWS CLI configured  
+- 🆓 AWS Free Tier account  
+
+---
+
 ## 🛠️ Installation
 
 ### 1️⃣ Clone the repository
@@ -144,15 +153,6 @@ terraform destroy -auto-approve
 
 ---
 
-## 📦 Prerequisites
-
-- 🐍 Python 3.8+  
-- ⚙️ Terraform 1.5+  
-- 🔑 AWS CLI configured  
-- 🆓 AWS Free Tier account  
-
----
-
 ## 🤝 Contributing
 
 ✨ We welcome contributions! Please follow:
@@ -174,4 +174,3 @@ MIT © VirtualISP – **[⚖️ See LICENSE](LICENSE)**
 > 💡 **Pro Tip**: Use `terraform plan` before `apply` to review changes  
 > 🔧 **Troubleshooting**: Check CloudWatch logs for Lambda errors  
 > 🌟 **Star this repo** if you found it useful!
-```
